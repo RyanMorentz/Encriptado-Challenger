@@ -176,8 +176,10 @@ height: 100%;
         font-weight: lighter;
         height: 100%;
     }
-    main{
-        justify-content: center;
-    }
+    .ingrese_texto.ajustar{
+        text-align: center;
+        font-weight: lighter;
+        height: 80%;
+        }
 }
     
