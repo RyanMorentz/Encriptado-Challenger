@@ -43,9 +43,9 @@ textarea{
     outline: none;
 }
 .ingrese_texto.ajustar{
-text-align: left;
-font-weight: lighter;
-height: 100%;
+    text-align: left;
+    font-weight: lighter;
+    height: 100%;
 }
 
 .ingrese_texto::placeholder{
