@@ -69,7 +69,7 @@ height: 100%;
     border: 1px solid var(blue);
     cursor: pointer;
     max-width: 328px;
-    min-width: 160px;
+    min-width: 328px;
     width: 40%;
     height: 67px;
     border-radius: 24px;
@@ -116,6 +116,7 @@ height: 100%;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
+    
 }.mensaje_final.ajustar{
     text-align: left;
     font-weight: lighter;
@@ -138,7 +139,7 @@ height: 100%;
 
 @media screen and (max-width:800px) {
     .main{
-        grid-template-columns: 5fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 75% auto;
         width: auto;
         margin: auto 50%;
@@ -153,7 +154,7 @@ height: 100%;
     .btn_desencriptar,
     .btn_encriptar{
         width: 100%;
-
+        
     }
     .muneco{
         display: none;
