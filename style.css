@@ -137,10 +137,11 @@ height: 100%;
 
 @media screen and (max-width:800px) {
     .main{
-        grid-template-columns: 1fr;
+        grid-template-columns: 5fr;
         grid-template-rows: 75% auto;
         width: auto;
-        margin: auto 40%;
+        margin: auto 50%;
+        justify-content: center;
     }
     .right{
         height: 100%;
@@ -150,17 +151,33 @@ height: 100%;
     }
     .btn_desencriptar,
     .btn_encriptar{
-        width: 45%;
+        width: 100%;
+
     }
     .muneco{
         display: none;
     }
+    .derecha{
+      padding: 50px;
+      height: 90%;
+    }
+
 }
 @media screen and (max-width: 500px){
     .btn_desencriptar,
     .btn_encriptar{
         max-width: 100%;
         width: 100%;
+        justify-content: center;
     }
+
+    .mensaje_final{
+        justify-content: center;
+        padding-top: 50px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+        padding-left: 40px;
+    }
+
 }
     
