@@ -172,27 +172,12 @@ height: 100%;
     }
 
     .mensaje_final{
+        text-align: left;
+        font-weight: lighter;
+        height: 100%;
+    }
+    main{
         justify-content: center;
-        padding-top: 50px;
-        padding-right: 40px;
-        padding-bottom: 30px;
-        padding-left: 40px;
     }
-
-    .ingrese_texto{
-        justify-content: center;
-        padding-top: 50px;
-        padding-right: 40px;
-        padding-bottom: 30px;
-        padding-left: 40px;
-    }
-
-    .Info_advertenvia{
-        padding-top: 50px;
-        padding-right: 40px;
-        padding-bottom: 30px;
-        padding-left: 40px;
-    }
-
 }
     
