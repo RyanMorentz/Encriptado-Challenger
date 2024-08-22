@@ -163,11 +163,11 @@ height: 100%;
     }
 
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 400px){
     .btn_desencriptar,
     .btn_encriptar{
-        max-width: 100%;
-        width: 100%;
+        max-width: auto;
+        width: auto;
         justify-content: center;
     }
 
